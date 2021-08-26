@@ -1,0 +1,25 @@
+{
+  "name": "mizword",
+  "version": "1.0.0",
+  "description": "Hunt for Bitcoin from 12 word mnemonic and check total recevied ammount",
+  "main": "mizword.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "12",
+    "word",
+    "mnemonic",
+    "for",
+    "bitcoin",
+    "wallet"
+  ],
+  "author": "mizogg.co.uk",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^5.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
